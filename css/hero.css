@@ -1,0 +1,29 @@
+.hero {
+  margin: 0 -2rem;
+  padding: 2rem;
+  background-color: #f7fcfa;
+}
+
+.hero figure {
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+
+.hero figure img {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin: 2rem;
+    display: inline;
+    background-color: #f7fcfa;
+  }
+  .hero figure {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    width: 50%;
+  }
+}

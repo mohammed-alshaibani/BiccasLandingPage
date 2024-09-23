@@ -1,0 +1,61 @@
+@import 'navbar.css';
+@import 'hero.css';
+@import 'content.css';
+@import 'plans.css';
+@import 'footer.css';
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+:root {
+  --font-family: "Inter", sans-serif;
+  --color-black: #191a15;
+  --color-green: #54bd95;
+  --color-div-BG: #f9f8fe;
+  --color-white: #fff;
+  --color-gray: #808080;
+  --box-bg: #f9fafb;
+  --discount: #85dab9;
+  --box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.05);
+}
+/* Main Style */
+body {
+  background-color: #eff3f0;
+  overflow-x: hidden;
+}
+main {
+  margin: 2rem;
+}
+section {
+  margin: 1rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 1rem;
+  color: var(--color-green);
+  width: 85%;
+  padding: 1rem 0;
+  line-height: 20px;
+}
+
+h1,
+h2 {
+  align-content: center;
+  font-size: 2rem;
+}

@@ -1,0 +1,159 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+}
+
+.footer-section h1,
+.footer-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.footer-section p {
+  font-size: 1em;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.email-input-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.email-input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  border-radius: 25px;
+  padding: 10px 20px;
+  color: #fff;
+  width: 100%;
+}
+
+.email-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.email-button img {
+  vertical-align: middle;
+}
+
+.contact-form {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.contact-form img {
+  display: block;
+  margin: 0 auto 20px;
+}
+
+.contact-form label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.contact-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #555;
+  color: #fff;
+}
+
+.contact-form button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form p {
+  text-align: right;
+  font-size: 0.9em;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.people {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  color: #fff;
+  margin-bottom: 50px;
+  flex: 1;
+}
+
+.people img {
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.testimonial-images {
+  margin-top: 20px;
+}
+
+.testimonial-images img {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .people {
+    display: flex;
+    flex-direction: column;
+  }
+}
